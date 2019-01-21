@@ -30,7 +30,6 @@
         align-items: center;
     }
     .tm-team-description-container {
-        flex-basis: 75rem;
         max-width: 100%;
     }
 }
@@ -41,8 +40,7 @@
         align-items: center;
     }
     .tm-team-description-container {
-        flex-basis: 75rem;
-        max-width: 100%;
+        max-width: 50%;
     }
     #about .tm-section-title:hover {
         background-color: #87CEFA;
@@ -82,6 +80,12 @@
     }
     h2+p {
         font-style: italic;
+    }
+    #blocks .padding-medium.flex-item.tm-team-description-container {
+        max-width: 500px;
+    }
+    .heading.tm-content-box ol li a {
+        color: #000000;
     }
     .heading.tm-content-box ol li:visited {
         text-decoration: underline;
