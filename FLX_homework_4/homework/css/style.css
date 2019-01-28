@@ -179,6 +179,7 @@
         font-weight: 500;
         padding: 8px;
         font-weight: 900;
+        border: 0;
         transition-duration: .5s;
     }
     .card button:hover {
@@ -208,6 +209,7 @@
         color: #FFFFFF;
         font-weight: 900;
         padding: 8px 6px;
+        border: 0;
         transition-duration: .5s;
     }
     .main-subscribe-right button:hover {
@@ -258,6 +260,7 @@
         color: #FFFFFF;
         font-weight: 900;
         padding: 8px 6px;
+        border: 0;
         transition-duration: .5s;
     }
     .footer-top-right button:hover {
