@@ -102,7 +102,7 @@
         color: #000;
     }
     .main-triangle-right p {
-        font-size: .8em;
+        font-size: .7em;
         color: #FFFFFF;
     }
     section h3 {
@@ -261,6 +261,7 @@
         font-weight: 900;
         padding: 8px 6px;
         border: 0;
+        margin-top: 5px;
         transition-duration: .5s;
     }
     .footer-top-right button:hover {
