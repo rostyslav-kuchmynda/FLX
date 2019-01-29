@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @media screen and (min-width: 900px) {
-    html, body{
+    html,
+    body {
         font-family: 'Open Sans', sans-serif;
         background: #F3F3F3;
         overflow-x: hidden;
@@ -225,8 +226,7 @@
         font-size: .7em;
         padding: 60px;
         border-bottom: 2px solid #F3F3F3;
-        margin: 0 50px;
-        width: 100%;
+        margin: 0 40px;
     }
     .footer-top-left {
         display: grid;
@@ -236,7 +236,6 @@
     }
     .footer-top-left p,
     .footer-top-right p {
-        margin-top: 10px;
         color: #9E9E9E;
     }
     .footer-top-left div:nth-child(2) p:last-child {
@@ -245,6 +244,7 @@
     .footer-top-left h4,
     .footer-top-right h4 {
         font-size: 1.2em;
+        margin-bottom: 10px;
     }
     .footer-top-right {
         width: 60%;
