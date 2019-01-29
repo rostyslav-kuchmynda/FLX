@@ -226,6 +226,7 @@
         padding: 60px;
         border-bottom: 2px solid #F3F3F3;
         margin: 0 50px;
+        width: 100%;
     }
     .footer-top-left {
         display: grid;
