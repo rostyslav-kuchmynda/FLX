@@ -124,8 +124,11 @@ header nav {
     opacity: .7;
     transition-duration: .5s;
 }
+.post-1 img {
+    width: 100%;
+}
 .post-img {
-    max-width: 50%;
+    width: 50%;
     transition-duration: .5s;
 }
 .post-blog {
