@@ -10,7 +10,6 @@ let winningScore,
 if (confirm("Do you want to play a game?")) {
     while (guessesLeft !== 0 && restartGame) {
         winningScore = Number(Math.floor(Math.random() * range));
-        console.log(winningScore);
         guessNum = Number(
           prompt(
             `Enter the number from 0 to ${range - 1}
