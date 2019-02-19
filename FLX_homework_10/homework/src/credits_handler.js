@@ -47,7 +47,7 @@ function userCard (someIndex) {
         if (creditPlusTax > options.balance && creditPlusTax > options.transactionLimit) {
             console.error('Not enough money or your transaction limit is low.');
         } else {
-            this.takeCredits(creditPlusTax);
+            takeCredits(creditPlusTax);
             card.putCredits(credits);
         }
     }
