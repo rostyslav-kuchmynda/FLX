@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 65%;
+    height: 100vh;
+    margin: 0 auto;
+    box-shadow: 0 0 10px #d3d3d3;
+}
+
+/* HEADER */
+
+.main-header {
+    padding: 25px 0;
+    text-align: center;
+}
+
+.main-wrapper {
+    padding: 0 25px 25px 25px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.form-wrapper {
+    padding: 25px;
+    border-bottom: 3px solid #000;
+}
+
+.add-new-action {
+    border: 0;
+    background: none;
+    margin-left: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    height: 37px;
+}
+
+input {
+    width: 100%;
+    font-size: 20px;
+    border: 1px solid #000;
+    padding-left: 10px;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+
+.tasks-item {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    cursor: move;
+    font-weight: 900;
+}
+
+.material-icons {
+    font-size: 37px;
+    cursor: pointer;
+}
+
+.disabled {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.m-right {
+    margin-left: auto;
+}
+.delete-item {
+    color: #000;
+}
+
+.m-left {
+    margin-right: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+footer img {
+    height: 70px;
+}
